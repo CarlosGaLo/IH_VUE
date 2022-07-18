@@ -1,0 +1,28 @@
+1º Ve a https://github.com/ y hazte una cuenta (Vamos a seguir una guía simplificada de lo que aparece en su web: https://docs.github.com/es/get-started/quickstart/create-a-repo) //Si vas a usar algún programa, como Github Desktop podrás hacerlo de una manera distinta a la aquí explicada. 
+   Instalate git en tu terminal.																							Nosotros vamos a hacerlo desde líneas de comando. Usaremos como lector de código para comprobar la importación 
+																							el Visual Studio Code
+2º Crea el repositorio siguiendo las instrucciones de la web. 
+3º Abre la consola de comandos
+4º git clone urlDelRepositorio
+5º 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------
+					COMANDOS CMD
+cd.. -> Change directory, cambia de carpeta
+git pull -> Hace el pull (baja los cambios del repositorio)
+git add . -> add de todo, si quieres de fichero concreto entonces: git add rutaYNombreDelFichero) 
+git commit -m"mensaje del commit" -> Pone un mensaje al commit
+git push -> Sube los cambios al repositorio

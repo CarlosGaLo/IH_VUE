@@ -1,0 +1,86 @@
+<> -> Tag
++ -> Atributo			
+				ESENCIALES
+! + Tab -> Crea estructura principal
+<head> -> Metadatos
+	<link rel="stylesheet" href="/css/styles.css" /> -> Carga css
+<body> -> Pág web
+<header> -> Cabecera web
+<main> -> Cuerpo
+<footer> -> Al pie
+<aside> -> Contenido adicional no relacionado
+--------------------------------------------
+				BÁSICOS
+<h1..h6> Titulares
+<p> -> Párrafo 
+<span> -> Contenedor de línea que se suele usar para encerrar un contenido escueto y luego darle estilo o hacer cosas con él. 
+<div> -> Es el equivalente al punto y a parte. Marca un fin de bloque de información aunque semánticamente no significa nada. Úsalo solo cuando no hay un selector
+	semántico que facilite la lectura. Sirve para dividir contenido y agruparlo por relaciones internas.
+<hr> -> Crea una línea horizontal (que podrás borrar con CSS) para indicar mediante código que estás cambiando de tema. 
+	Es el equivalente a acabar un capítulo de un libro. 
+<section> -> Conjunto de contenido relacionado
+<article> -> Conjunto de contenido no relacionado
+<em> -> Subraya la importancia de unas palabras para el navegador (y pone en cursiva)
+<strong> -> Subraya aún más la importancia de unas palabras para el navegador (y pone en negrita)
+<small> -> Resta importancia a unas palabras para el navegador (y reduce la letra)
+<br> -> Fuerza salto de línea en caso de necesidad. ¡No lo uses por estética! De eso se encarga CSS
+<wbr> -> Fuerza salto de línea solo cuando el texto no entra en pantalla. Los guiones tienen wbr automático, las barras bajas no. 
+<time> -> Se utiliza para remarcar un contenido de fecha y hora
+<sub> -> Subíndice (f sub 2)
+<sup> -> supraíndice (cuatro al cuadrado)
+<nav> -> navegación
+<table> -> Crea una tabla y la termina cuando se cierra el tag. Si la tabla tiene título usa la estiqueta <caption> para titularla. 
+	Dicha etiqueta debe ir DENTRO de <table>
+<tr> -> Crea una fila (row) dentro de la tabla y determina el número de columnas de dicha tabla. Crea una columna por cda <td>
+<td> -> table data, introduce el contenido dentro de una celda
+##########Las tablas pueden tener una estructura interna similar a la propia web, añadiendo un head, un body y un tfoot propios. 
+<thead> -> Crea la cabecera de una tabla, es como el <tr> pero sirve SOLO para la cabecera de la tabla.
+<tdata> -> Crea un data de una tabla, es como el <tdata> pero sirve SOLO para la cabecera de la tabla. 
+<tbody> -> Crea un cuerpo para una tabla, sirve para separar datos de forma correcta y facilitar el trabajo de los buscadores y navegadores
+<tfoot> -> Crea un foot para una tabla, de igual forma que el tbody y tdata
++rowspan -> Hace que una celda ocupe más de una fila
++colspan -> Hace que una celda ocupe más de una columna
+<colgroup> -> Selecciona grupos de columnas
+<col> -> Selecciona las columnas por orden, si pones <col span="x"> te seleccionará x columnas. Colgroup y col siempre cogen las columnas en orden
+--------------------------------------------
+				CATEGORÍAS
+<class> -> Añade una clase para luego usarlo en CSS
+<ID> -> Añade un identificador que debe ser único para usarlo en CSS
+<title> -> Añade tool-tip con el contenido que se indice. Ej: <p title=Así sale el tool-tip>
+<data-ejemplo> -> Almacena información bajo el nombre "ejemplo"
+<ul> -> Unorderer list (lista de la compra)
+<ol> -> Orderer list (lista de top 10 de cosas, el orden importa)
+<dl> -> Lista de definiciones -> No usa <li>, en su lugar usa <dt> (Palabra a definir) y <dd> (Definición de la palabra)
+<li> -> List Item, crea un elemento en la lista
+<datalist id="x"> -> Va con input type="list" list="x" y sirve para crear una lista con un buscador integrado. Cada objeto de la lista es un <option value="y"></option>
+<fieldset> -> Agrupa elementos de un formulario, la etiqueta <legend> le da un título al fieldset
+--------------------------------------------
+				Navegación
+<a> -> Link o enlace. Proviene de la palabra "anchor" que significa ancla. 
++target -> determina cómo se abrirá el recurso solicitado. 
++download -> se descarga el recurso. Los archivos solo se descargan si están en el servidor, si no, te lleva a la página de la forma usual. 
++#ID -> hace que un <a> te lleve a un ID concreto de la página seleccionada. /prueba.html#ID-1 te llevaría al ID 1 de la página prueba
+--------------------------------------------
+				Formularios
+form -> Contiene un formulario con todas sus variables
+label -> Crea una etiqueta con un nombre
+input -> Crea un tipo de input al que habrá que darle un atributo concreto para seleccionar cómo queremos que sea el input
+button -> Crea un botón interactivo que sirve para dar una orden al formulario, generalmente enviar la información
+######Los input tienen infinidad de types, values y parámetros internos. Revísalos en https://www.w3schools.com/tags/tag_input.asp
+los input button se relacionan mediante el parámetros name. El parámetro Checked servirá para marcar uno por defecto. 
++value -> Indica el valor que se enviará con el formulario
++required -> Hace que el campo sea obligatorio
++placeholder -> Hace que aparezca un mensaje de ejemplo en el formulario
++readonly -> el campo deja de ser editable, el campo se envía
++desable -> el campo deja de ser editable, el campo no se envía
+
+--------------------------------------------
+				Para que los navegadores, programadores y buscadores te amen
+<address> -> etiqueta una dirección si esta es relevante para el contenido de la web. 
+<blockquote> o <q>-> etiqueta para citar a alguien. Son etiquetas de bloque y de línea respectivamente y lo suyo es que le añadas el atributo +cite 
+		con la referencia a la fuente. No suele usarse para hacer enlaces a otras páginas, simplemente es por facilitar el trabajo a 
+		navegadores, buscadores y programadores. 
+<pre> -> Sirve para reflejar un texto tal y como se haya escrito con una configuración y tipografía previa
+<code> -> Sirve para representar código de forma literal, suele ir dentro de la etiqueta <pre>
+
+

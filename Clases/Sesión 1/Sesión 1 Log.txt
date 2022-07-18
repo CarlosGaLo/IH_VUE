@@ -1,0 +1,44 @@
+- Presentaciones
+- Montse
+- Calendario
+- Instalaciones
+	- oh my zsh (apple)
+	- git
+	- vsCode
+	- Extensiones añadidas: https://chrome.google.com/webstore/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg
+				https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl
+				https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh/related
+
+- Comandos.
+	ls -> pinta en pantalla la ubicación (list director)
+	cd -> cambiar directorio (change directory)
+	cd.. -> Regresa un paso hacia atrás 
+	mkdir -> Make-Directory, crea una carpeta nueva
+	touch (apple) / echo (windows) -> Crea distintos tipos de archivo
+	Flecha arriba / abajo -> Revisas lo escrito
+	cls ó clear -> limpia la pantalla
+	open -> abre un archivo determinado
+	
+
+- ¿Qué es un repositorio?
+- Explicación de los Readme
+- Cómo hacer pull, commit y push
+	- git commit -m "first commit"
+	- add README.md
+	- init -> Inicia el repositorio
+	- git branch -M main
+	- git remote add origin LINK -> trackea toda la carpeta
+	- git push -u origin main -> Añade todo, los tracked y los untracked
+	- git push origin -> Añade los archivos trackeados
+ 
+- Los README de los repositorios
+- Markdown
+	- https://markdown.es/
+	- https://www.markdownguide.org/
+	- Abrir terminar Ver -> Abrir terminal
+
+- HTML
+	- Qué es
+	- Historia
+	- <h#>
+	- 

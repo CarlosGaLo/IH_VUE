@@ -1,0 +1,50 @@
+				BUENAS PRÁCTICAS
+Hazlo legible -> A más semántico sea el código mejor, así podrás leerlo como si fuese un manual de instrucciones. 
+Don't Repeat Yourself (DRY) -> Si estás repitiendo código, seguro que hay una forma más simple de hacerlo. 
+Si vas a usar seleccionadores descendentes, no bajes más de un nivel
+No todo se hereda en CSS, ten cuidado cuando modifiques código y ten en cuenta cómo funcionan las herencias
+Usa Normalize -> https://necolas.github.io/normalize.css/8.0.1/normalize.css
+Usa Autoprefixer -> https://autoprefixer.github.io/
+
+				
+
+
+				SELECTORES
+* -> Selector universal
+Nombre -> Selector del tag
+. -> Selector de la clase
+# -> Selector del ID
+[] -> Selector del atributo
+[atributo^="X"] -> Selecciona los que empiezan en "X"
+[atributo*="X"] -> Selecciona los que contienen "X"
+[atributo$="X"] -> Selecciona los que acaben en "X"
+[atributo|="X"] -> Selecciona X o X-, como en el caso de los idiomas. Por ejemplo, selecciona en y en-GB.
+X, Y -> La , separa los selectores para poder aplicar los mismos {} a varios selectores. Ejemplo -> h1, h2 {color: darkblue}
+" " -> Selecciona el hijo. El espacio (" ") sirve para bajar un nivel dentro de los selectores, buscando componentes determinados en los hijos de selector referenciado
++ -> Selecciona el siguiente hermano (componentes al mismo nivel). 
+~ -> Selecciona todos los hermanos (componentes al mismo nivel). 
+> -> Selector de hijos directos, no selecciona nietos. 
+propiedad: inherit -> Fuerza la herencia de una propiedad.
+
+
+
+				ATRIBUTOS (Estudia el modelo de cajas)
+Width -> Ancho de la caja (No vale para elementos de línea)
+Height -> Alto de la caja (No vale para elementos de línea)
+Border -> Tamaño del borde de la caja
+Padding -> Distancia de la caja al contenido (leer también margin, porque va a funcionar igual)
+Margin -> Distancia mínima entre la caja y la siguiente caja más cercana
+	Top -> Arriba
+	Bottom -> Abajo
+	Right -> Derecha
+	Left -> Izquierda
+	Admite 4 imputs -> Se enumera como las horas de un reloj, correspondiendo el primer valor al Top. 
+			1 Valor -> Se aplica a todo
+			2 Valores -> Se aplica en duplas: bottom-top y left-right
+			3 Valores -> Se aplica top y bottom aislados y left-right juntos
+			4 valores -> Se aplica cada valor a cada dirección, siendo el primer valor el top, el segundo el left, el tercero el bottom y el cuarto el right. 
+box-sizing: border-box ó content-box -> Reasigna los valores de tamaño de una caja para que no haya que calcular las sumas de las partes. -> Se suele usar con el selector universal -> *{box-sizing: border-box}
+
+
+
+
