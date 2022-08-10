@@ -1,0 +1,59 @@
+.container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-color: aqua;
+}
+
+.container2 {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-color: green;
+}
+
+.poke-img {
+    width: 100px;
+}
+
+.eevee1 {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.eevee2 {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.eevee3 {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+
+.eevee4 {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.eevee5 {
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}
+
+.eevee6 {
+    position: absolute;
+    top: 150px;
+    right: 190px;
+}
+
+.eevee7 {
+    position: absolute;
+    top: 150px;
+    left: 190px;
+}
